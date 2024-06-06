@@ -1,7 +1,7 @@
 import React from 'react'
 import './Weather.css'
 
-const weather = () => {
+const Weather = () => {
   return (
     <div>
       <h1>Weather</h1>
@@ -9,4 +9,4 @@ const weather = () => {
   )
 }
 
-export default weather
+export default Weather
