@@ -59,4 +59,8 @@
     display: block;
     font-size: 16px;
 }
+.weather-data .col img{
+    width: 26px;
+    margin-top: 10px;
+}
 
