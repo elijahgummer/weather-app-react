@@ -35,4 +35,6 @@ weather-icon{
 }
 .temperature{
     color: white;
+    font-size: 80px;
+    line-height: 1;
 }
