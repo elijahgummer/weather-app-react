@@ -5,7 +5,7 @@ const Weather = () => {
   return (
     <div className='weather'>
       <div className="search-bar">
-        <input type="text" />
+        <input type="text" placeholder='Search'/>
       </div>
     </div>
   )
