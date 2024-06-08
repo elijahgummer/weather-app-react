@@ -22,3 +22,10 @@
     background: #ebfffc;
     font-size: 18px;
 }
+.search-bar img {
+    width: 50px;
+    padding: 15px;
+    border-radius: 50%;
+    background: #ebfffc;
+    cursor: pointer;
+}
