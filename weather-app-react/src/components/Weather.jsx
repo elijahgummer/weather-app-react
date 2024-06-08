@@ -17,7 +17,7 @@ const Weather = () => {
         <input type="text" placeholder='Search'/>
         <img src={search_icon} alt="" />
       </div>
-      <img src={clear_icon} alt="" />
+      <img src={clear_icon} alt="" className='weather-icon'/>
     </div>
   )
 }
