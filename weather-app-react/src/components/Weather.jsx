@@ -1,12 +1,12 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './Weather.css'
 import search_icon from '../Assets/search.png'
 import clear_icon from '../Assets/clear.png'
-import cloud_icon from '../Assets/cloud.png'
-import drizzle_icon from '../Assets/drizzle.png'
+// import cloud_icon from '../Assets/cloud.png'
+// import drizzle_icon from '../Assets/drizzle.png'
 import humidity_icon from '../Assets/humidity.png'
-import rain_icon from '../Assets/rain.png'
-import snow_icon from '../Assets/snow.png'
+// import rain_icon from '../Assets/rain.png'
+// import snow_icon from '../Assets/snow.png'
 import wind_icon from '../Assets/wind.png'
 
 
@@ -20,9 +20,14 @@ const Weather = () => {
         console.log(data);
 
       } catch (error) {
-
+        console.log("Error fetching weather data: ", error);
       }
     }
+
+    useEffect(()=>{
+      search("London");
+    },[]);
+
   return (
     <div className='weather'>
       <div className="search-bar">
